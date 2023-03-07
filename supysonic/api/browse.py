@@ -190,6 +190,10 @@ def artist_info():
 
     return request.formatter("artist", info)
 
+@api_routing("/getArtistInfo")
+def artist_info1():
+    return ""
+
 
 @api_routing("/getAlbum")
 def album_info():
